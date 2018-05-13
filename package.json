@@ -1,0 +1,19 @@
+{
+  "name": "hengwujun",
+  "version": "1.0.0",
+  "description": "this is package test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hengwujun128/editor.git"
+  },
+  "author": "hengwujun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hengwujun128/editor/issues"
+  },
+  "homepage": "https://github.com/hengwujun128/editor#readme"
+}
