@@ -1,4 +1,4 @@
-{
+export default {
     //-------- 编辑器配置 --------
     "editor.fontSize": 14,
     // 控制行高。
