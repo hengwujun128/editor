@@ -1,4 +1,5 @@
-export default {
+// 团队云使用的配置
+{
   //-------- 编辑器配置 --------
   "editor.fontSize": 16,
   // 控制行高。
@@ -24,7 +25,6 @@ export default {
   "editor.cursorStyle": "block",
   // 删除尾随自动插入的空格
   "editor.trimAutoWhitespace": true,
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
@@ -40,4 +40,30 @@ export default {
   "git.autofetch": true,
   // 启用/禁用默认 HTML 格式化程序
   "html.format.enable": true,
+  "gitlens.historyExplorer.enabled": true,
+  "vsicons.projectDetection.autoReload": true,
+
+  // 
+  "eslint.options": {
+    "configFile": "E:/project/smartODN/WebPortal-VUE/.eslintrc.js"
+    // "configFile": "E:/project/github-projects/vue-test/.eslintrc.js"
+  },
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [{
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "vsicons.dontShowNewVersionMessage": true
 }
